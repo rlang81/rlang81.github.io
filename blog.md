@@ -1,7 +1,5 @@
 ---
 layout: home
-title: Trendlines
+title: Two-Sigma
 subtitle: Personal thoughts and projects
 ---
-
-Coming soon...
