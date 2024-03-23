@@ -96,10 +96,10 @@ The notebook used for generating the figures can be found at: [https://github.co
 
 ## References
 
-[^1] Berry, R. B., Brooks, R., Gamaldo, C. E., Harding, S. M., Marcus, C., & Vaughn, B. V. (2012). The AASM manual for the scoring of sleep and associated events. Rules, Terminology and Technical Specifications, Darien, Illinois, American Academy of Sleep Medicine, 176(2012), 7.
+[^1]: Berry, R. B., Brooks, R., Gamaldo, C. E., Harding, S. M., Marcus, C., & Vaughn, B. V. (2012). The AASM manual for the scoring of sleep and associated events. Rules, Terminology and Technical Specifications, Darien, Illinois, American Academy of Sleep Medicine, 176(2012), 7.
 
-[^2] Yamagami, K., Nomura, A., Kometani, M., Shimojima, M., Sakata, K., Usui, S., ... & Yoneda, T. (2021). Early detection of symptom exacerbation in patients with SARS-CoV-2 infection using the Fitbit Charge 3 (DEXTERITY): pilot evaluation. JMIR Formative Research, 5(9), e30819. https://doi.org10.2196/30819
+[^2]: Yamagami, K., Nomura, A., Kometani, M., Shimojima, M., Sakata, K., Usui, S., ... & Yoneda, T. (2021). Early detection of symptom exacerbation in patients with SARS-CoV-2 infection using the Fitbit Charge 3 (DEXTERITY): pilot evaluation. JMIR Formative Research, 5(9), e30819. https://doi.org10.2196/30819
 
-[^3] Zhang, Z., Qi, M., Hügli, G., & Khatami, R. (2021). The Challenges and Pitfalls of Detecting Sleep Hypopnea Using a Wearable Optical Sensor: Comparative Study. Journal of medical Internet research, 23(7), e24171. https://doi.org/10.2196/24171
+[^3]: Zhang, Z., Qi, M., Hügli, G., & Khatami, R. (2021). The Challenges and Pitfalls of Detecting Sleep Hypopnea Using a Wearable Optical Sensor: Comparative Study. Journal of medical Internet research, 23(7), e24171. https://doi.org/10.2196/24171
 
-[^4] Lubitz, S. A., Faranesh, A. Z., Selvaggi, C., Atlas, S. J., McManus, D. D., Singer, D. E., Pagoto, S., McConnell, M. V., Pantelopoulos, A., & Foulkes, A. S. (2022). Detection of Atrial Fibrillation in a Large Population Using Wearable Devices: The Fitbit Heart Study. Circulation, 146(19), 1415–1424. https://doi.org/10.1161/CIRCULATIONAHA.122.060291
+[^4]: Lubitz, S. A., Faranesh, A. Z., Selvaggi, C., Atlas, S. J., McManus, D. D., Singer, D. E., Pagoto, S., McConnell, M. V., Pantelopoulos, A., & Foulkes, A. S. (2022). Detection of Atrial Fibrillation in a Large Population Using Wearable Devices: The Fitbit Heart Study. Circulation, 146(19), 1415–1424. https://doi.org/10.1161/CIRCULATIONAHA.122.060291
