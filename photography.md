@@ -13,3 +13,16 @@ title: Photography
     <li><a href="{{ img.path }}" title="{{ img.basename }}" class="img">{{ img.basename }}</a></li>
   {% endfor %}
 </ul>
+
+
+{% assign images = site.static_files | where: "gallery", true %}
+<ul class="gallery">
+  {% for img in images %}
+    <li class="gallery-item">
+      <a href="{{ img.path }}" title="{{ img.basename }}" class="img">
+        <img src="{{ img.path }}" alt="{{ img.basename }}">
+      </a>
+    </li>
+    {% cycle '', '', '</ul><ul class="gallery">' %}
+  {% endfor %}
+</ul>
