@@ -26,7 +26,7 @@ title: Photography
 {% assign images = site.static_files | where: "gallery", true %}
 <div class="gallery">
   {% for img in images %}
-    {% assign thumbnail_path = img.path | replace: "/photography/", "/thumbnails/photography/" %}
+    {% assign thumbnail_path = img.path | replace: "/photography/", "/thumbnails/" %}
     <a href="{{ img.path }}" title="{{ img.basename }}" class="gallery-item">
       <img src="{{ thumbnail_path }}" alt="{{ img.basename }}">
     </a>
