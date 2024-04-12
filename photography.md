@@ -3,26 +3,30 @@ layout: page
 title: Photography
 ---
 
-## April 8th Total Solar Eclipse
+<style>
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
 
-![HDR Composite](https://rlang81.github.io/assets/img/photography/maine-tse-2024/hdr-stack-1.png) ![View from the Rangeley, ME IGA](https://rlang81.github.io/assets/img/photography/maine-tse-2024/PXL_20240408_193142221.jpg)
+  .gallery-item {
+    flex-basis: calc(33.33% - 10px); /* Adjust width for three columns with spacing */
+    margin-bottom: 20px; /* Adjust spacing between rows */
+  }
+
+  .gallery-item img {
+    width: 100%; /* Ensure images fill their container */
+    height: auto; /* Maintain aspect ratio */
+  }
+</style>
+
 
 {% assign images = site.static_files | where: "gallery", true %}
-<ul>
+<div class="gallery">
   {% for img in images %}
-    <li><a href="{{ img.path }}" title="{{ img.basename }}" class="img">{{ img.basename }}</a></li>
+    <a href="{{ img.path }}" title="{{ img.basename }}" class="gallery-item">
+      <img src="{{ img.path }}" alt="{{ img.basename }}">
+    </a>
   {% endfor %}
-</ul>
-
-
-{% assign images = site.static_files | where: "gallery", true %}
-<ul class="gallery">
-  {% for img in images %}
-    <li class="gallery-item">
-      <a href="{{ img.path }}" title="{{ img.basename }}" class="img">
-        <img src="{{ img.path }}" alt="{{ img.basename }}">
-      </a>
-    </li>
-    {% cycle '', '', '</ul><ul class="gallery">' %}
-  {% endfor %}
-</ul>
+</div>
