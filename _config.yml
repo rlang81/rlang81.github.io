@@ -278,6 +278,18 @@ defaults:
     values:
       layout: "page"
 
+  -
+    scope:
+      path: "assets/img/photography"
+    values:
+      gallery: true
+
+  -
+    scope:
+      path: "assets/img/photography/*/*"
+    values:
+      gallery: true
+
 # Exclude these files from production site
 exclude:
   - CHANGELOG.md
